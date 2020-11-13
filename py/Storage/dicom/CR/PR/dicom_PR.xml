@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<file-format>
+<meta-header xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+<element tag="0002,0000" vr="UL" vm="1" len="4" name="FileMetaInformationGroupLength">174</element>
+<element tag="0002,0001" vr="OB" vm="1" len="2" name="FileMetaInformationVersion" binary="hidden"></element>
+<element tag="0002,0002" vr="UI" vm="1" len="28" name="MediaStorageSOPClassUID">1.2.840.10008.5.1.4.1.1.11.1</element>
+<element tag="0002,0003" vr="UI" vm="1" len="44" name="MediaStorageSOPInstanceUID">2.25.204393373987461271680813879372459544750</element>
+<element tag="0002,0010" vr="UI" vm="1" len="18" name="TransferSyntaxUID">1.2.840.10008.1.2</element>
+<element tag="0002,0012" vr="UI" vm="1" len="16" name="ImplementationClassUID">1.2.40.0.13.1.3</element>
+<element tag="0002,0013" vr="SH" vm="1" len="14" name="ImplementationVersionName">dcm4che-5.18.1</element>
+</meta-header>
+<data-set xfer="1.2.840.10008.1.2" name="Little Endian Implicit">
+<element tag="0008,0005" vr="CS" vm="1" len="10" name="SpecificCharacterSet">ISO_IR 100</element>
+<element tag="0008,0016" vr="UI" vm="1" len="28" name="SOPClassUID">1.2.840.10008.5.1.4.1.1.11.1</element>
+<element tag="0008,0018" vr="UI" vm="1" len="44" name="SOPInstanceUID">2.25.204393373987461271680813879372459544750</element>
+<element tag="0008,0020" vr="DA" vm="1" len="8" name="StudyDate">20201104</element>
+<element tag="0008,0023" vr="DA" vm="1" len="8" name="ContentDate">20201113</element>
+<element tag="0008,0030" vr="TM" vm="1" len="14" name="StudyTime">155853.890000</element>
+<element tag="0008,0033" vr="TM" vm="1" len="10" name="ContentTime">193516.282</element>
+<element tag="0008,0050" vr="SH" vm="0" len="0" name="AccessionNumber"></element>
+<element tag="0008,0060" vr="CS" vm="1" len="2" name="Modality">PR</element>
+<element tag="0008,0090" vr="PN" vm="0" len="0" name="ReferringPhysicianName"></element>
+<element tag="0008,1010" vr="SH" vm="1" len="4" name="StationName">srv</element>
+<element tag="0008,1030" vr="LO" vm="1" len="6" name="StudyDescription">Mão D</element>
+<element tag="0008,103e" vr="LO" vm="1" len="12" name="SeriesDescription">Weasis GSPS</element>
+<sequence tag="0008,1115" vr="SQ" card="1" name="ReferencedSeriesSequence">
+<item card="2">
+<sequence tag="0008,1140" vr="SQ" card="1" name="ReferencedImageSequence">
+<item card="2">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.1</element>
+<element tag="0008,1155" vr="UI" vm="1" len="54" name="ReferencedSOPInstanceUID">1.3.46.670589.30.1.3.1.206915885271889.1604512800218.2</element>
+</item>
+</sequence>
+<element tag="0020,000e" vr="UI" vm="1" len="54" name="SeriesInstanceUID">1.3.46.670589.30.1.3.1.206915885271889.1604512800312.1</element>
+</item>
+</sequence>
+<element tag="0010,0010" vr="PN" vm="1" len="42" name="PatientName">SAFETY RADIOPROTECAO^CQ RXM SNPADBTD02001</element>
+<element tag="0010,0020" vr="LO" vm="1" len="20" name="PatientID">SFTRXMSNPADBTD02001</element>
+<element tag="0010,0021" vr="LO" vm="0" len="0" name="IssuerOfPatientID"></element>
+<element tag="0010,0030" vr="DA" vm="1" len="8" name="PatientBirthDate">20180528</element>
+<element tag="0010,0040" vr="CS" vm="1" len="2" name="PatientSex">O</element>
+<element tag="0010,21b0" vr="LT" vm="0" len="0" name="AdditionalPatientHistory"></element>
+<element tag="0018,1020" vr="LO" vm="1" len="6" name="SoftwareVersions">3.5.4</element>
+<element tag="0020,000d" vr="UI" vm="1" len="54" name="StudyInstanceUID">1.3.46.670589.30.1.3.1.206915885271889.1604512138515.1</element>
+<element tag="0020,000e" vr="UI" vm="1" len="44" name="SeriesInstanceUID">2.25.183854957213551576734652062790571061081</element>
+<element tag="0020,0010" vr="SH" vm="1" len="12" name="StudyID">S-KH3P3LL0.1</element>
+<element tag="0020,0011" vr="IS" vm="1" len="4" name="SeriesNumber">999</element>
+<sequence tag="0070,0001" vr="SQ" card="2" name="GraphicAnnotationSequence">
+<item card="3">
+<element tag="0070,0002" vr="CS" vm="1" len="8" name="GraphicLayer">MEASURE</element>
+<sequence tag="0070,0008" vr="SQ" card="25" name="TextObjectSequence">
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 51,3 mm2&#13;&#10;Mean : 3.694,2 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">631.79541\596.21039</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">753.57666\631.71039</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="32" name="UnformattedTextValue">Area : 40,1 mm2&#13;&#10;Mean : 3.720 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">690.75714\540.016296</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">801.10089\575.5163</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 16,9 mm2&#13;&#10;Mean : 3.740,6 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">735.64575\486.61349</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">857.427\522.11353</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 16,2 mm2&#13;&#10;Mean : 3.772,3 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">792.73419\433.071625</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">914.51544\468.57162</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 66,2 mm2&#13;&#10;Mean : 3.217,8 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1234.6273\1199.546</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1356.4086\1235.04602</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="32" name="UnformattedTextValue">Area : 42,3 mm2&#13;&#10;Mean : 3.218 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1287.9768\1142.07312</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1398.3206\1177.5731</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 26,9 mm2&#13;&#10;Mean : 3.193,3 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1340.7906\1085.8921</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1462.5719\1121.3921</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 15,4 mm2&#13;&#10;Mean : 3.227,7 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1396.3975\1027.1393</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1518.1787\1062.6393</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 3,3 mm2&#13;&#10;Mean : 2.728,2 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">741.40607\759.41199</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">863.18732\794.91199</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="30" name="UnformattedTextValue">Area : 2 mm2&#13;&#10;Mean : 2.564 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">757.29767\793.74005</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">867.078918\829.24005</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 2,5 mm2&#13;&#10;Mean : 2.541,8 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">777.79785\824.080383</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">899.5791\859.58038</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 4,2 mm2&#13;&#10;Mean : 2.579,3 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">791.73804\851.55066</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">913.51929\887.050659</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 3,8 mm2&#13;&#10;Mean : 2.579,3 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">811.41821\885.99097</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">933.19946\921.49097</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 7,1 mm2&#13;&#10;Mean : 2.583,1 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">828.63837\919.20129</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">950.41962\954.70129</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 8,8 mm2&#13;&#10;Mean : 2.614,5 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">864.71875\956.10168</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">986.5\991.60168</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="32" name="UnformattedTextValue">Area : 9 mm2&#13;&#10;Mean : 2.630,4 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1052.5006\928.22137</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1174.2819\963.72137</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="32" name="UnformattedTextValue">Area : 5,2 mm2&#13;&#10;Mean : 3.059 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">958.19965\633.42847</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1067.981\668.92847</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="32" name="UnformattedTextValue">Area : 2 mm2&#13;&#10;Mean : 2.745,2 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1038.5604\663.35876</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1160.3417\698.85876</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 2,7 mm2&#13;&#10;Mean : 2.781,8 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1050.04065\693.28906</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1171.8219\728.78906</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="32" name="UnformattedTextValue">Area : 2 mm2&#13;&#10;Mean : 2.839,3 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1085.3009\719.93933</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1207.08215\755.43933</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 2,5 mm2&#13;&#10;Mean : 2.793,1 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1102.5211\751.50964</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1224.3024\787.0096436</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 3,2 mm2&#13;&#10;Mean : 2.742,8 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1123.8413\780.2099</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1245.6226\815.7099</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="34" name="UnformattedTextValue">Area : 3,4 mm2&#13;&#10;Mean : 2.773,9 US</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1166.4818\813.010254</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1288.2631\848.51025</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="18" name="UnformattedTextValue">Length : 172,9 mm</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">1320.6703\207.15228</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">1445.1703\229.40228</element>
+</item>
+<item card="4">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="18" name="UnformattedTextValue">Length : 136,1 mm</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">23.967033\764.45215</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">148.46703\786.70215</element>
+</item>
+</sequence>
+<sequence tag="0070,0009" vr="SQ" card="25" name="GraphicObjectSequence">
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">602.49646\568.6286\602.49646\623.79218\576.19757\596.21039\628.79541\596.21039</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">2</element>
+<element tag="0070,0022" vr="FL" vm="4" len="16" name="GraphicData">663.9444\540.016296\642.90698\528.8595</element>
+<element tag="0070,0023" vr="CS" vm="1" len="6" name="GraphicType">CIRCLE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">2</element>
+<element tag="0070,0022" vr="FL" vm="4" len="16" name="GraphicData">717.16168\486.61349\723.72803\500.63629</element>
+<element tag="0070,0023" vr="CS" vm="1" len="6" name="GraphicType">CIRCLE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">2</element>
+<element tag="0070,0022" vr="FL" vm="4" len="16" name="GraphicData">774.61536\433.071625\787.8717\440.34125</element>
+<element tag="0070,0023" vr="CS" vm="1" len="6" name="GraphicType">CIRCLE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">2</element>
+<element tag="0070,0022" vr="FL" vm="4" len="16" name="GraphicData">1201.01355\1199.546\1215.0686\1226.7428</element>
+<element tag="0070,0023" vr="CS" vm="1" len="6" name="GraphicType">CIRCLE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">2</element>
+<element tag="0070,0022" vr="FL" vm="4" len="16" name="GraphicData">1260.519\1142.07312\1262.5349\1166.4478</element>
+<element tag="0070,0023" vr="CS" vm="1" len="6" name="GraphicType">CIRCLE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">2</element>
+<element tag="0070,0022" vr="FL" vm="4" len="16" name="GraphicData">1318.2736\1085.8921\1322.8301\1104.8698</element>
+<element tag="0070,0023" vr="CS" vm="1" len="6" name="GraphicType">CIRCLE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">2</element>
+<element tag="0070,0022" vr="FL" vm="4" len="16" name="GraphicData">1378.635\1027.1393\1372.8621\1040.7261</element>
+<element tag="0070,0023" vr="CS" vm="1" len="6" name="GraphicType">CIRCLE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">2</element>
+<element tag="0070,0022" vr="FL" vm="4" len="16" name="GraphicData">876.73273\758.59198\878.9389\765.039795</element>
+<element tag="0070,0023" vr="CS" vm="1" len="6" name="GraphicType">CIRCLE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">887.13898\778.15991\898.61908\778.15991\892.87903\773.23987\892.87903\783.079956</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">905.1792\797.84009\917.47931\797.84009\911.32922\792.10004\911.32922\803.58014</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">931.0094604\810.96021\931.0094604\828.18042\924.039368\819.57031\937.97949\819.57031</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">962.16974\844.58057\962.16974\860.16071\955.19965\852.37067\969.13983\852.37067</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">988.41003\864.26074\988.41003\885.58099\978.97992\874.9209\997.84009\874.9209</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">997.84009\903.62115\1023.2604\903.62115\1010.5502\893.78107\1010.5502\913.46124</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">1025.7203\928.22137\1049.5006\928.22137\1037.6105\917.56128\1037.6105\938.88153</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">967.089783\692.87903\967.089783\710.099243\958.47968\701.48914\975.69989\701.48914</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">983.079956\721.57935\994.56006\721.57935\988.82001\716.6593\988.82001\726.49939</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">1006.8602\741.66956\1019.1603\741.66956\1013.01025\735.51947\1013.01025\747.81958</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">1038.02051\770.77985\1049.5006\770.77985\1043.7605\765.8598\1043.7605\775.69989</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">1060.9807\796.61011\1074.1008\796.61011\1067.5408\791.28003\1067.5408\801.94012</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">1087.2209\821.21033\1101.9811\821.21033\1094.6011\815.060242\1094.6011\827.36041</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">4</element>
+<element tag="0070,0022" vr="FL" vm="8" len="32" name="GraphicData">1114.2813\846.63062\1129.8615\846.63062\1122.07129\840.48053\1122.07129\852.78064</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">ELLIPSE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">2</element>
+<element tag="0070,0022" vr="FL" vm="4" len="16" name="GraphicData">1571.9874\376.69702\419.71115\364.13815</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">POLYLINE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+<item card="7">
+<element tag="0070,0005" vr="CS" vm="1" len="6" name="GraphicAnnotationUnits">PIXEL</element>
+<element tag="0070,0020" vr="US" vm="1" len="2" name="GraphicDimensions">2</element>
+<element tag="0070,0021" vr="US" vm="1" len="2" name="NumberOfGraphicPoints">2</element>
+<element tag="0070,0022" vr="FL" vm="4" len="16" name="GraphicData">432.27002\1249.5385\419.71115\342.16013</element>
+<element tag="0070,0023" vr="CS" vm="1" len="8" name="GraphicType">POLYLINE</element>
+<element tag="0070,0024" vr="CS" vm="1" len="2" name="GraphicFilled">N</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+</sequence>
+</item>
+<item card="3">
+<element tag="0070,0002" vr="CS" vm="1" len="10" name="GraphicLayer">ANNOTATION</element>
+<sequence tag="0070,0008" vr="SQ" card="1" name="TextObjectSequence">
+<item card="7">
+<element tag="0070,0003" vr="CS" vm="1" len="6" name="BoundingBoxAnnotationUnits">PIXEL</element>
+<element tag="0070,0006" vr="ST" vm="1" len="36" name="UnformattedTextValue">Campo Luminoso com Campo de Radiação</element>
+<element tag="0070,0010" vr="FL" vm="2" len="8" name="BoundingBoxTopLeftHandCorner">269.64447\46.960556</element>
+<element tag="0070,0011" vr="FL" vm="2" len="8" name="BoundingBoxBottomRightHandCorner">544.6601\72.210556</element>
+<element tag="0070,0014" vr="FL" vm="2" len="8" name="AnchorPoint">419.71115\342.16013</element>
+<element tag="0070,0015" vr="CS" vm="1" len="2" name="AnchorPointVisibility">Y</element>
+<sequence tag="0070,0232" vr="SQ" card="1" name="LineStyleSequence">
+<item card="2">
+<element tag="0070,0251" vr="US" vm="3" len="6" name="PatternOnColorCIELabValue">655\33153\32896</element>
+<element tag="0070,0253" vr="FL" vm="1" len="4" name="LineThickness">1</element>
+</item>
+</sequence>
+</item>
+</sequence>
+<sequence tag="0070,0009" vr="SQ" card="0" len="0" name="GraphicObjectSequence">
+</sequence>
+</item>
+</sequence>
+<sequence tag="0070,0060" vr="SQ" card="2" name="GraphicLayerSequence">
+<item card="4">
+<element tag="0070,0002" vr="CS" vm="1" len="8" name="GraphicLayer">MEASURE</element>
+<element tag="0070,0062" vr="IS" vm="1" len="2" name="GraphicLayerOrder">0</element>
+<element tag="0070,0068" vr="LO" vm="1" len="12" name="GraphicLayerDescription">Measurements</element>
+<element tag="0070,0401" vr="US" vm="3" len="6" name="GraphicLayerRecommendedDisplayCIELabValue">655\33153\32896</element>
+</item>
+<item card="4">
+<element tag="0070,0002" vr="CS" vm="1" len="10" name="GraphicLayer">ANNOTATION</element>
+<element tag="0070,0062" vr="IS" vm="1" len="2" name="GraphicLayerOrder">1</element>
+<element tag="0070,0068" vr="LO" vm="1" len="12" name="GraphicLayerDescription">Annotations</element>
+<element tag="0070,0401" vr="US" vm="3" len="6" name="GraphicLayerRecommendedDisplayCIELabValue">655\33153\32896</element>
+</item>
+</sequence>
+<element tag="0070,0080" vr="CS" vm="1" len="4" name="ContentLabel">GSPS</element>
+<element tag="0070,0081" vr="LO" vm="1" len="12" name="ContentDescription">Description</element>
+<element tag="0070,0082" vr="DA" vm="1" len="8" name="PresentationCreationDate">20201113</element>
+<element tag="0070,0083" vr="TM" vm="1" len="10" name="PresentationCreationTime">193516.282</element>
+<element tag="0070,0084" vr="PN" vm="1" len="14" name="ContentCreatorName">administrator</element>
+<element tag="7107,0070" vr="LO" vm="1" len="20" name="PrivateCreator">weasis/model/xml/2.5</element>
+<element tag="7107,7001" vr="UN" vm="1" len="3588" name="Unknown Tag &amp; Data" binary="hidden"></element>
+</data-set>
+</file-format>
