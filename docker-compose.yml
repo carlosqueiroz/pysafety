@@ -1,0 +1,17 @@
+version: '3'
+services:
+  jupyter:
+    build: ./image/jupyter/
+    ports:
+      - '1515:8888'
+    volumes:
+      - ./py:/home/jovyan/work
+    restart: always
+  cherrypy:
+    build: ./image/cherrypy/
+    volumes:
+      - ./py:/var/
+    ports:
+      - "9090:8080"
+    command: python3 app.py
+    restart: always
